@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Odin</title>
+  </head>
+  <body>
+    <div id="formContainer">
+      <form id="form-a">
+        <div id="emailDiv">
+          <label for="formEmail">Email</label>
+          <input type="email" id="formEmail" required />
+        </div>
+        <div id="countryDiv">
+          <label for="formCountry">Country</label>
+          <input type="text" id="formCountry" required />
+        </div>
+        <div id="zipCodeDiv">
+          <label for="formZipCode">Zip Code</label>
+          <input id="formZipCode" required />
+        </div>
+        <div id="passwordDiv">
+          <label for="formPassword">Password</label>
+          <input
+            id="formPassword"
+            required
+            type="password"
+            name="password"
+            autocomplete="on"
+          />
+        </div>
+        <div id="passwordConfDiv">
+          <label for="passwordConf">Re-type Password</label>
+          <input
+            id="formPasswordConf"
+            required
+            type="password"
+            name="password"
+            autocomplete="on"
+          />
+        </div>
+        <button id="submitButton" type="submit" for="form-a">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
